@@ -4,7 +4,7 @@
 
 .App-header {
   background-color: #7f91b5;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,3 +12,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.dishes {
+  background-color: #7f91b5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .dishcards-container {
+  display: flex;
+  flex-flow: column wrap;
+  height: 1000px;
+} */

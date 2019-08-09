@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <FormikUserForm />
-        <GetDish />
       </header>
+      <div className="dishes">
+        <GetDish />
+      </div>
     </div>
   );
 }

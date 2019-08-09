@@ -42,9 +42,10 @@ class GetDish extends Component {
               <button onClick={this.likeCount} data-testid="likeButton">Like 👍</button>
               <p data-testid="likes">{this.state.likes}</p>
             </div>
-           
+            <div className="dishcards-container">
             {console.log("user data", this.state.dish)}
             {this.state.dish.map(meal => (<DishCard props={meal}/>))}
+            </div>
           </div>
       )
   }
