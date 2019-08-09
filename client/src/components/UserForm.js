@@ -3,7 +3,6 @@ import axios from 'axios';
 import { Form, Field, withFormik } from 'formik';
 import * as Yup from 'yup';
 import { TextField } from 'formik-material-ui';
-import GetUsers from './GetUsers.js';
 
 const UserForm = ({ errors, touched, values, handleSubmit, status }) => {
 
@@ -47,8 +46,6 @@ const UserForm = ({ errors, touched, values, handleSubmit, status }) => {
 
             <button type="submit" className="button">Submit</button>
         </Form>
-
-        <GetUsers />
 
       </div>
     );

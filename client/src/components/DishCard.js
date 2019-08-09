@@ -1,6 +1,7 @@
 import React from 'react';
 
 const DishCard = ({ props }) => {
+    
     return (
         <div className="usercard-container">
             <p>Food: {props.name}</p>
